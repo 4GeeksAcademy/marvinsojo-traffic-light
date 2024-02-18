@@ -10,3 +10,48 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    min-height: 100vh;
+}
+.traffic-base{
+    width: 1rem;
+    height: 5rem;
+}
+.traffic-body{
+    min-height:23rem;
+    min-width: 9rem;
+}
+.traffic-lights{
+    min-width:  7rem;
+    min-height: 21rem;
+}
+.red{
+    min-width:  7rem;
+    min-height: 7rem;
+    border-radius: 50%;
+    
+}
+.redOn{
+    box-shadow: 0px 0px 15px 15px red;
+}
+.yellow{
+    min-width:  7rem;
+    min-height: 7rem;
+    border-radius: 50%;
+    
+}
+.yellowOn{
+    box-shadow: 0px 0px 15px 15px yellow;
+}
+.green{
+    min-width:  7rem;
+    min-height: 7rem;
+    border-radius: 50%;
+    
+}
+.greenOn{
+    box-shadow: 0px 0px 15px 15px green;
+}
+.botones{
+    height: 4rem;
+}
